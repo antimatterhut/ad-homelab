@@ -79,4 +79,65 @@ The lab has a moderate scope that covers
 
 ## 🛠️  Project Structure
 
-I can just update this later when the structure is sound.
+Here is the current structure of the lab. *This needs to be trimmed/updated. 
+
+📂 ad-homelab
+│── README.md
+│── Table-of-Contents.md
+│
+│── 01-overview-and-planning/
+│   ├── lab-overview-and-objectives.md
+│   ├── scope.md
+│   ├── hardware-and-software.md
+│   ├── ou-structure-design.md
+│   ├── README.md
+│
+│── 02-environment-and-setup/
+│   ├── proxmox-and-networking.md
+│   ├── windows-server-installation.md
+│   ├── windows-client-installation.md
+│   ├── README.md
+│
+│── 03-configurations/
+│   ├── active-directory-setup.md
+│   ├── dns-setup.md
+│   ├── ou-and-group-creation.md
+│   ├── user-account-creation.md
+│   ├── computer-account-setup.md
+│   ├── shared-folder-setup.md
+│   ├── ntfs-and-share-permissions.md
+│   ├── README.md
+│
+│── 04-troubleshooting/
+│   ├── run-menu-gpo-drive-mapping-conflict.md
+│   ├── folder-redirection-inconsistencies.md
+│   ├── README.md
+│
+│── 05-screenshots/
+│   ├── planning-and-overview/
+│   ├── environment-setup/
+│   ├── configuration/
+│   ├── group-policy/
+│   ├── security-measures/
+│
+│── 06-group-policy-configurations/
+│   ├── lab-computer-baseline-gpo.md
+│   ├── student-restrictions-gpo.md
+│   ├── teacher-access-gpo.md
+│   ├── folder-redirection-students.md
+│   ├── folder-redirection-teachers.md
+│   ├── gpresult-analysis.md
+│   ├── README.md
+│
+│── 07-security-measures/
+│   ├── password-policy.md
+│   ├── account-lockout-policy.md
+│   ├── audit-policy.md
+│   ├── windows-defender-policy.md
+│   ├── local-administrator-restrictions.md
+│   ├── README.md
+│
+│── 08-scripts-and-automation/
+│   ├── logon-scripts/
+│   ├── gpo-backup-scripts/
+│   ├── README.md
