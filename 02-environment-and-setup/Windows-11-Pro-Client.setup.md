@@ -1,9 +1,16 @@
-### 💾 1. Installation
 
+# Windows 11 Pro Client setup
+
+This document is dedicated to me setting up my client. 
+
+
+## 💾 1. Installation
+
+blah blah blah
 
 ---
 
-### 💻 2. Initial Configuration
+## 💻 2. Initial Configuration
 
 After installation, I performed the following:
 
@@ -15,11 +22,20 @@ After installation, I performed the following:
 
 ---
 
-### 🧱 3. Installing AD DS Role
+## 🧱 3. Domain Joining
 
 
+- With this domain join, I can test a variety of users from my AD using this virtual machine. I can login as a teacher, a student, whatever.
+---
+
+## 🏰 4. 
 
 ---
 
-## 🏰 4. Promoting to Domain Controller
+## 🧪 5. Post-Installation Checks
 
+---
+
+## 📦 6. Summary
+
+---
