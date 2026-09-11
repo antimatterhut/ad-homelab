@@ -18,8 +18,6 @@ Here is a screenshot of the settings I chose for the client VM on proxmox.
 
 It is important to click the box on add an additional drive for virtio drivers on the menu where you create the VM. 
 
-
-
 ---
 
 ## 💻 2. Initial Configuration
@@ -29,8 +27,6 @@ After installation, I performed the following:
 (*delete this, replace)
 - Changed the machine name to `WinServer2025`
 - Set a **static IP address**: `192.168.1.10`
-- Configured DNS to point to itself (`192.168.1.10`)
-- Set the computer’s **time zone**
 
 ---
 
@@ -39,14 +35,24 @@ After installation, I performed the following:
 - With this domain join, I can test a variety of users from my AD using this virtual machine. I can login as a teacher, a student, whatever.
 ---
 
-## 🏰 4. 
+- Configured DNS to point to the domain controllers DNS (`192.168.1.10`)
+
+## 🧪 4. Post-Installation Checks
+
+- I need to confirm that this virtual machine is under the domain 
+
+- Logging in as a Student that I created
+
+(picture of that)
+
+gpresult summary
+
+(picture of that)
 
 ---
 
-## 🧪 5. Post-Installation Checks
+## 📦 5. Summary
 
----
-
-## 📦 6. Summary
+In conclusion, this post was created to show what I did in order to setup my working domain joined Windows 11 pro virtual machine.
 
 ---

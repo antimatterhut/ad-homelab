@@ -24,18 +24,28 @@ After installation, I performed the following:
 
 ## 🧱 3. Installing AD DS Role
 
+I need to install the active directory and domain services role onto this server. 
 
+Heres how to do that:
 
 ---
 
 ## 🏰 4. Promoting to Domain Controller
 
+Now, I need to promote this server to domain controller.
+
+Heres how to do that:
+
 ---
 
 ## 🧪 5. Post-Installation Checks
 
+(some command that shows that I am the domain controller)
+
 ---
 
 ## 📦 6. Summary
+
+In this document, I showed you how I setup my domain controller Windows Server 2025 virtual machine.
 
 ---
