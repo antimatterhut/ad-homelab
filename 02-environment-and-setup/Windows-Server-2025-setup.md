@@ -30,15 +30,18 @@ Note: MAKE SURE to tick the box that says add an additional drive for VirtIO dri
 
 After installation, I performed the following:
 
-- Changed the machine name to `WinServer2025`
+- Changed the machine name to `AD-RBPHS`
+
+![image](/05-screenshots/hostnameServer.png)
 
 
-- Set a **static IP address**: `192.168.1.10`
+- Set a **static IP address**: `192.168.0.220`
 
+![image](/05-screenshots/staticipserver.png)
 
 - Set the computer’s **time zone**
 
-
+![image](/05-screenshots/timezoneDC.png.png)
 
 
 ---
@@ -51,12 +54,17 @@ Heres how to do that:
 
 1. Click Manage at the top of the server manager, go to add roles and features
 
+![image](/05-screenshots/addroles.png)
+
 2. Check role based or feature based installation
+
+![image](/05-screenshots/role.png)
 
 3. Chose the following AD-DS services aswell as File and Storage Services and DNS if its not there by default.
 
-4. Click Install.
+![image](/05-screenshots/timezoneDC.png)
 
+4. Click Install.
 
 
 ---
@@ -87,9 +95,14 @@ Login with the administrator credentials you have chosen.
 
 ## 🧪 5. Post-Installation Checks
 
-(some command that shows that I am the domain controller)
 
-In order to see if you are a domain controller, run dcdiag in powershell and look at the results. 
+
+In order to see if you are a domain controller, run Get-WmiObject -Class Win32_ComputerSystem | Select-Object Domain, Roles in powershell and look at the results. 
+
+It should say domain_controller or primary_domain controller as shown here:
+
+![image](/05-screenshots/proofdc.png)
+
 
 ---
 
