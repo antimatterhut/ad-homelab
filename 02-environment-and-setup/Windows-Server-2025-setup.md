@@ -41,7 +41,7 @@ After installation, I performed the following:
 
 - Set the computer’s **time zone**
 
-![image](/05-screenshots/timezoneDC.png.png)
+![image](/05-screenshots/timezoneDC.png)
 
 
 ---
